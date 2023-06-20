@@ -1,0 +1,449 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    --font-inter: Inter;
+    --font-size-xl: 20px;
+    --font-size-5xl: 24px;
+    --font-size-21xl: 40px;
+    --font-size-base: 16px;
+    --color-whitesmoke-100: #f8f8f8;
+    --color-whitesmoke-200: #f6f6f6;
+    --color-silver: #cbc9c9;
+    --color-black: #000;
+    --color-gainsboro-100: #dedddc;
+    --color-gainsboro-200: rgba(217, 217, 217, 0);
+    --color-sandybrown: #e1b067;
+    --color-white: #fff;
+    --color-gray: rgba(0, 0, 0, 0.13);
+  }
+
+
+  
+  .login {
+    top: 15px;
+    left: 1103px;
+    font-weight: 300;
+    display: inline-block;
+    width: 91px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1px #000;
+    color: #f6f6f6;
+  }
+  .image-3-icon,
+  .login,
+  .register {
+    position: absolute;
+    height: 32px;
+  }
+  .register {
+    top: 15px;
+    left: 1170px;
+    font-weight: 300;
+    display: inline-block;
+    width: 90px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1px #000;
+  }
+  .image-3-icon {
+    top: 10px;
+    left: 24px;
+    width: 116px;
+    object-fit: cover;
+  }
+  .frame-wrapper,
+  .header-inner,
+  .image-8-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 75px;
+    overflow: hidden;
+  }
+  .header-inner,
+  .image-8-icon {
+    top: 50px;
+  }
+  .image-8-icon {
+    height: 86.11%;
+    width: 46.97%;
+    top: 8.33%;
+    right: 53.03%;
+    bottom: 5.56%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .div14 {
+    position: absolute;
+    top: 0;
+    left: 46.97%;
+    font-weight: 300;
+  }
+  .component-1 {
+    position: absolute;
+    top: 6px;
+    left: 1027px;
+    width: 66px;
+    height: 36px;
+    font-size: 30px;
+    color: var(--color-white);
+  }
+  .header {
+    position: relative;
+    background-color: var(--color-black);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-whitesmoke-200);
+    font-family: var(--font-inter);
+  }
+
+
+
+.home,
+.kid,
+.men,
+.sport,
+.woman {
+  position: absolute;
+  top: 16px;
+  left: 25px;
+}
+.kid,
+.men,
+.sport,
+.woman {
+  left: 292px;
+  font-weight: 300;
+}
+.men,
+.sport,
+.woman {
+  left: 363px;
+}
+.men,
+.woman {
+  left: 105px;
+  opacity: 0.7;
+}
+.woman {
+  left: 183px;
+}
+.line-1-stroke {
+  position: absolute;
+  top: 49.5px;
+  left: 24px;
+  width: 60px;
+  height: 1px;
+}
+.menu {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+
+
+
+
+.register-heading {
+  position: absolute;
+  top: 30px;
+  left: 524px;
+  font-size: 40px;
+}
+.line-2-stroke {
+  position: absolute;
+  height: 9.8%;
+  width: 100%;
+  top: 95.1%;
+  right: 0;
+  bottom: -4.9%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.email {
+  height: 70.59%;
+  width: 71.78%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.div,
+.email,
+.textbox {
+  position: absolute;
+}
+.div {
+  height: 66.67%;
+  width: 48.34%;
+  top: 17.65%;
+  left: 95.02%;
+  font-size: var(--font-size-xl);
+  color: var(--color-red);
+  display: inline-block;
+}
+.textbox {
+  top: 140px;
+  left: 120px;
+  width: 482px;
+  height: 51px;
+}
+.gender,
+.textbox1 {
+  position: absolute;
+  left: 696px;
+}
+.textbox1 {
+  top: 218px;
+  width: 482px;
+  height: 51px;
+}
+.gender {
+  top: 327px;
+}
+.radio-child,
+.textbox2,
+.textbox3,
+.textbox31 {
+  position: absolute;
+  top: 140px;
+  left: 701px;
+  width: 482px;
+  height: 51px;
+}
+.radio-child,
+.textbox3,
+.textbox31 {
+  top: 218px;
+  left: 120px;
+}
+.radio-child,
+.textbox31 {
+  top: 302px;
+}
+.radio-child {
+  height: 80%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 20%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.radio-item {
+  position: absolute;
+  height: 100%;
+  width: 46.73%;
+  top: 0;
+  right: 48.6%;
+  bottom: 0;
+  left: 4.67%;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+}
+.male,
+.radio-inner {
+  position: absolute;
+  top: 20%;
+}
+.radio-inner {
+  height: 60%;
+  width: 28.04%;
+  right: 57.94%;
+  bottom: 20%;
+  left: 14.02%;
+  border-radius: 50%;
+  background-color: #AE18E2;
+}
+.male {
+  width: 90.71%;
+  left: 60.71%;
+  display: inline-block;
+}
+.radio,
+.radio-child1 {
+  position: absolute;
+  top: 313px;
+  left: 823px;
+  width: 140px;
+  height: 50px;
+}
+.radio-child1 {
+  height: 60%;
+  width: 28.04%;
+  top: 20%;
+  right: 57.94%;
+  bottom: 20%;
+  left: 14.02%;
+  border-radius: 50%;
+  background-color: #AE18E2;
+  display: none;
+}
+.radio1 {
+  position: absolute;
+  top: 316px;
+  left: 1017px;
+  width: 140px;
+  height: 50px;
+}
+.button-icon-gradient-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #AE18E2;
+}
+.div5 {
+  position: absolute;
+  height: 64%;
+  width: 36%;
+  top: 12%;
+  left: 30%;
+  display: inline-block;
+}
+.button-icon-gradient {
+  position: absolute;
+  top: calc(50% + 179px);
+  left: calc(50% + 61px);
+  width: 291px;
+  height: 50px;
+  color: var(--color-snow);
+}
+.registercontent {
+  position: relative;
+  background-color: var(--color-snow);
+  width: 100%;
+  height: 538px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+
+
+
+
+
+  .cybersoft-all-rights {
+    margin: 0;
+  }
+  .cybersoft-all-rights-container1 {
+    line-break: anywhere;
+    width: 100%;
+  }
+  .cybersoft-all-rights-container {
+    position: absolute;
+    top: 263px;
+    left: 14px;
+    display: flex;
+    align-items: center;
+    width: 1280px;
+    height: 37px;
+  }
+  .get-help,
+  .menu {
+    position: absolute;
+  }
+  .menu {
+    top: 0;
+    left: 0;
+    background-color: var(--on-primary-high-emphasis);
+    width: 1320px;
+    height: 226px;
+  }
+  .get-help {
+    top: 28px;
+    left: 13px;
+    display: inline-block;
+    width: 180px;
+    height: 29px;
+  }
+  .about {
+    margin-block-start: 0;
+    margin-block-end: 10px;
+  }
+  .home-nike-adidas-container {
+    position: absolute;
+    top: 63px;
+    left: 56px;
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    text-align: left;
+    display: inline-block;
+    width: 180px;
+    height: 102px;
+  }
+  .menu-footer-child {
+    position: absolute;
+    top: 27.5px;
+    left: 364.5px;
+    border-right: 1px solid var(--color-gainsboro-100);
+    box-sizing: border-box;
+    width: 1px;
+    height: 168px;
+  }
+  .menu-footer,
+  .menu-footer1 {
+    position: absolute;
+    top: 25px;
+    left: 481px;
+    background-color: var(--on-primary-high-emphasis);
+    width: 443px;
+    height: 175px;
+    overflow: hidden;
+  }
+  .menu-footer1 {
+    left: 105px;
+    width: 414px;
+  }
+  .menu-footer-inner {
+    position: absolute;
+    top: 27.5px;
+    left: 364.5px;
+    border-right: 1px solid var(--color-gainsboro-100);
+    box-sizing: border-box;
+    width: 1px;
+    height: 168px;
+    display: none;
+  }
+  .menu-footer2 {
+    position: absolute;
+    top: 25px;
+    left: 895px;
+    background-color: var(--on-primary-high-emphasis);
+    width: 414px;
+    height: 175px;
+    overflow: hidden;
+  }
+  .footer {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  
