@@ -3,7 +3,7 @@ import User from '../models/User.js';
 export const $ = document.querySelector.bind(document);
 export const $$ = document.querySelectorAll.bind(document);
 
-// Giả lập mạng yếu
+
 export const delay = (time) => {
     return new Promise((resolve) => {
         setTimeout(resolve, time);

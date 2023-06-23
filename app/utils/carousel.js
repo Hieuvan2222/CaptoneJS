@@ -1,14 +1,14 @@
 function Carousel(options) {
-    // ==============
-    // ==== DOM =====
-    // ==============
+   
+    // -- DOM --
+    
 
     const carousel = document.querySelector(options.selector);
     const itemsList = carousel.querySelectorAll('.item');
 
-    // =================
-    // ==== States =====
-    // =================
+   
+    // -- States --
+   
 
     const count = itemsList.length;
     const loop = options.loop ?? true;
@@ -22,9 +22,9 @@ function Carousel(options) {
     let thirdDot = Math.ceil(count * 4 / 5);
 
 
-    // =====================
-    // ==== Utilities ======
-    // =====================
+ 
+    //  Utilities 
+
 
     function wrapperEls(els, type = "div", clas = "") {
         let parent;
@@ -107,19 +107,13 @@ function Carousel(options) {
         };
     }
 
-    // =====================
-    // ==== Preprocess =====
-    // =====================
-
-    // Specify the width of an image based on responsive
+    
+    //  Preprocess 
+    
     itemsList.forEach((item) => {
         item.style.width = width + '%';
     });
-
-    // Wrap items in a container
     const itemsContainer = wrapperEls(itemsList, 'div', 'items-container');
-
-    // Create 2 items at the start and the end of the container
     const first = document.querySelector('.item:first-child');
     const last = document.querySelector('.item:last-child');
 
@@ -130,14 +124,14 @@ function Carousel(options) {
     before.style.marginLeft = -width * index + '%';
     before.classList.add('animation');
 
-    // Create 2 navigation buttons
+   
     const leftBtn = createEl(`<button class="left-btn"></button>`);
     const rightBtn = createEl(`<button class="right-btn"></button>`);
 
     carousel.insertBefore(leftBtn, itemsContainer);
     carousel.appendChild(rightBtn);
 
-    // Create navigation buttons
+    
     if (pag) {
         var dot1 = createEl('<div class="dot active"></div>');
         var dot2 = createEl('<div class="dot"></div>');
@@ -150,9 +144,9 @@ function Carousel(options) {
         carousel.appendChild(dots);
     }
 
-    // =======================
-    // ==== Handle events ====
-    // =======================
+   
+    // -- onclick events --
+  
 
     leftBtn.onclick = throttling(function () {
         --index;

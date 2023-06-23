@@ -1,5 +1,4 @@
-// text
-// $fz: 1.4rem, $fw: 300, $c: #000
+
 @mixin text($fz: $fz-md, $fw: $fw-light, $lh: $lh-md, $c: $text-dark-c0) {
   font-size: $fz;
   font-weight: $fw;
@@ -7,7 +6,7 @@
   color: $c;
 }
 
-// display flex
+
 @mixin d-flex($fd: row, $fw: wrap, $jc: null, $ai: null) {
   display: flex;
   flex-direction: $fd;
@@ -44,7 +43,7 @@
   }
 }
 
-// default button
+
 @mixin button(
   $fz: $fz-lg,
   $fw: $fw-light,
@@ -119,7 +118,7 @@
   }
 }
 
-// responsive
+// Responsive
 @mixin xsm {
   @media (max-width: #{$xsm-width}) {
     @content;
@@ -150,7 +149,7 @@
   }
 }
 
-// arrow button
+
 %arrow-button {
   position: absolute;
   top: 50%;
@@ -178,7 +177,7 @@
   }
 }
 
-// badge
+
 %badge {
   display: flex;
   justify-content: center;
@@ -199,7 +198,7 @@
   }
 }
 
-// input
+
 %input-control {
   @include text($fz: $fz-mxl, $fw: $fw-regular);
   display: inline-block;
@@ -211,21 +210,21 @@
   text-align: center;
 }
 
-// hide text
+
 %hide-text {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-// show text
+
 %show-text {
   white-space: normal;
   overflow: visible;
   text-overflow: clip;
 }
 
-// skeleton
+
 .skeleton-spinner {
   @include d-flex($jc: center, $ai: center);
   align-self: center;
